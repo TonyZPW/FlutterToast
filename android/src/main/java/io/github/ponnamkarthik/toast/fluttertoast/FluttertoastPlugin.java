@@ -59,7 +59,7 @@ public class FluttertoastPlugin implements MethodCallHandler {
                 }
                 int mDuration;
                 if (length.equals("long")) {
-                    mDuration = Toast.LENGTH_LONG;
+                    mDuration = 4000;
                 } else {
                     mDuration = Toast.LENGTH_SHORT;
                 }
